@@ -10,9 +10,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:text="Please choose and click to record your location and the date(if you don't want to do this you can skip):"
-        android:textSize="20sp"
+        android:textSize="15sp"
         android:textColor="#4CAF50"
         />
 
@@ -44,8 +44,8 @@
         android:layout_height="wrap_content"
         android:text="time and date"
         android:textColor="#2196F3"
-        android:textSize="20dp"
-        android:layout_marginTop="200dp"
+        android:textSize="15dp"
+        android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
         />
 
@@ -55,26 +55,29 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btn1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="50dp"
 
         android:text="location"
         android:textColor="#2196F3"
-        android:textSize="20dp"
+        android:textSize="15dp"
         />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn2"
-        android:layout_marginTop="100dp"
         android:text=" confirm"
         android:background="@color/colorPrimary"
         android:textColor="#E91E63"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:textSize="20dp"
 
         />
-
+</RelativeLayout>
 
 
 </RelativeLayout>
