@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:text="question one:"
+        />
+    <TextView
+        android:id="@+id/answer_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:text="question two:"
+        />
+    <TextView
+        android:id="@+id/answer_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question three:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question four:"
+        android:textSize="10dp"
+
+        />
+    <TextView
+        android:id="@+id/answer_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question five:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question six:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question seven:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question eight:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question nine:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question ten:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question eleven:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="question twelve:"
+        android:textSize="10dp"
+        />
+    <TextView
+        android:id="@+id/answer_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No answer!"
+        android:textSize="10dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_save"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="update"
+            android:background="#39BD3E"
+            ></Button>
+
+
+    </RelativeLayout>
+</LinearLayout>

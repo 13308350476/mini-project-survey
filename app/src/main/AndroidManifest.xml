@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.qin.imagezxlingdemo">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="miniProject"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Question_twelve_chActivity"></activity>
+        <activity android:name=".Question_eleven_chActivity" />
+        <activity android:name=".Question_ten_chActivity" />
+        <activity android:name=".Question_nine_chActivity" />
+        <activity android:name=".Question_eight_chActivity" />
+        <activity android:name=".Question_seven_chActivity" />
+        <activity android:name=".Question_six_chActivity" />
+        <activity android:name=".Question_five_chActivity" />
+        <activity android:name=".Question_four_chActivity" />
+        <activity android:name=".Question_three_chActivity" />
+        <activity android:name=".Qustion_two_chActivity" />
+        <activity android:name=".Question_one_chActivity" />
+        <activity android:name=".Welcome_chActivity" />
+        <activity android:name=".FinishActivity" />
+        <activity android:name=".Question_twelve_enActivity" />
+        <activity android:name=".Question_eleven_enActivity" />
+        <activity android:name=".Question_ten_enActivity" />
+        <activity android:name=".Question_nine_enActivity" />
+        <activity android:name=".Question_eight_enActivity" />
+        <activity android:name=".CreateQRActivity" />
+        <activity android:name=".Question_seven_enActivity" />
+        <activity android:name=".Question_six_enActivity" />
+        <activity android:name=".Question_five_enActivity" />
+        <activity android:name=".Question_four_enActivity" />
+        <activity android:name=".Question_three_enActivity" />
+        <activity android:name=".Question_two_enActivity" />
+        <activity android:name=".Question_one_enActivity" />
+        <activity android:name=".Welcome_enActivity" />
+        <activity android:name=".report_saActivity" />
+        <activity android:name=".interfaceActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".UnlockView" />
+        <activity android:name=".Show_json" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SActivity" />
+        <activity android:name=".TimeActivity" />
+        <activity
+            android:name="com.king.zxing.CaptureActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".EasyCaptureActivity" />
+    </application>
+
+</manifest>

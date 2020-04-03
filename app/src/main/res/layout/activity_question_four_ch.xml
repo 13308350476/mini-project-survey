@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Question_four_chActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="问题4"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:layout_marginLeft="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您的手机现在有什么功能？"
+        android:textSize="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <CheckBox
+        android:id="@+id/grp4_1_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:text="音乐功能" >
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_2_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="照相功能" >
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_3_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="游戏功能" >
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_4_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="办公功能(World,Excel,ect.)" >
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_5_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="GPS功能" >
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_6_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="数据功能(Bluetooth,WLAN,等等)">
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/grp4_7_ch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="其他" >
+    </CheckBox>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/bt_question_four_ch"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="NEXT"
+            android:background="#39BD3E"
+            ></Button>
+    </RelativeLayout>
+
+</LinearLayout>

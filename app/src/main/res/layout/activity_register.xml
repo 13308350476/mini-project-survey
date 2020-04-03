@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="REGISTER"
+        android:textColor="#DA1A1A"
+        android:textSize="30dp"
+        ></TextView>
+</RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#178FEA"
+            android:text="账号(account):"
+            ></TextView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_account_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input your account"
+            ></EditText>
+</RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#178FEA"
+            android:text="password:"
+            ></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/et_password_re"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="账号(input your account)"
+            ></EditText>
+</RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#EA1717"
+            android:text="confirm password:"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/et_password_re_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="账号(input your account)"
+            ></EditText>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/bt_register_re"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#EA176B"
+        android:background="#3F51B5"
+        android:text="REGISTER"
+        />
+</RelativeLayout>
+</LinearLayout>
